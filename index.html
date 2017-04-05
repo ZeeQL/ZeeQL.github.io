@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<p>
+  <img src="https://img.shields.io/badge/swift-3-blue.svg" />
+  <img src="https://img.shields.io/badge/os-macOS-green.svg?style=flat" />
+  <img src="https://img.shields.io/badge/os-tuxOS-green.svg?style=flat" />
+  <img src="https://travis-ci.org/ZeeQL/ZeeQL3.svg?branch=master" />
+</p>
+
+<p>Nothing to see here, yet 😬.</p>
+
+<hr />
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+      
+      <div class="date">
+        <table border="0" width="100%"> <!-- old skool -->
+          <tr>
+            <td>{{ post.date | date: "%B %e, %Y" }}</td>
+            <td style="text-align:right;"><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a></td>
+          </tr>
+        </table>
+      </div>
+    </article>
+  {% endfor %}
+</div>
