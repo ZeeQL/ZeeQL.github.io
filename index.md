@@ -47,7 +47,7 @@ let objects = try datasource.fetchObjects(
     .prefetch(Person.e.addresses)
     .order(by: Person.e.login)
 )
-```swift
+```
 
 Or partial object fetches, which still provide most of the neat stuff
 while avoiding fetching full objects all the time:
