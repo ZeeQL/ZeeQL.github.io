@@ -68,7 +68,7 @@ or design them with the Xcode CoreData modeler.
 
 ZeeQL is still being prepared. Please stay tuned for the release.
 If you want to stay up to date, subscribe to the
-[ZeeQL Blog](/blog/)
+[ZeeQL Blog](http://www.alwaysrightinstitute.com)
 
 ### Status
 
@@ -83,7 +83,7 @@ Available:
     - SQLite3, native
     - APR Adaptors (Apache Portable Runtime, kinda a mini-ODBC),
       w/ reflection for PG&amp;SQLite
-    - PostgreSQL, libpq based<
+    - PostgreSQL, libpq based
   - ActiveDataSource / ActiveRecord
           (tracks snapshot in the object, instead of using the EditingContext)
   - Typesafe, simple SQL selects
