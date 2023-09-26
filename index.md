@@ -13,6 +13,9 @@ tags: swift orm database server side postgresql sqlite
   <img src="https://travis-ci.org/ZeeQL/ZeeQL3.svg?branch=master" />
 </p>
 
+2023-09-26: This still works but is somewhat outdated.
+Newer technologies may enable SwiftData like models here.
+
 **ZeeQL**
 is a Swift ORM / database access library primarily inspired by EOF, 
 and in consequence CoreData, adding some ActiveRecord concepts.
@@ -64,7 +67,7 @@ Declare your models in neat code (either typesafe, or by using names),
 or fetch them from the database information schema,
 or design them with the Xcode CoreData modeler.
   
-### WORK IN PROGRESS, STAY TUNE
+### WORK IN PROGRESS, STAY TUNED
 
 ZeeQL is still being prepared. Please stay tuned for the release.
 If you want to stay up to date, subscribe to the
